@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.history-container{
+    padding: 2rem 0 2rem 0;
+
+}
+.ul{
+    list-style: none;
+/* width: 99%; */
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border: 2px solid ;
+   align-items: center;
+    height: 2rem;
+    margin-top: .2rem;
+}
+
+.plus{
+    border-right: 5px solid green;
+}
+.minus{
+    border-right: 5px solid red;
+
+}
+
+.delt{
+    
+position: absolute;
+padding: .4rem;
+color: red;
+visibility: hidden;
+border-radius: 50%;
+left: 25.9rem;
+
+}
+
+
+.list:hover>.delt{
+visibility: visible;
+}

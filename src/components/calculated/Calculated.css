@@ -1,0 +1,18 @@
+.containner{
+    display: flex;
+    text-align: center;
+margin-top:.5rem ;
+}
+
+
+.left{
+    border: 2px solid red;
+padding: 1rem;
+width: 50%;
+}
+
+.right{
+    border: 2px solid green;
+    padding: 1rem;
+width: 50%;
+}
